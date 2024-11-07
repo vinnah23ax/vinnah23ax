@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>One Stop Shop | TEMKO ENTERPRISE</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                </div>
+                <!-- navigation bar -->
+                <nav>
+                    <ul class="sidebar">
+                        <li onclick=hidesidebar()><a href="#close"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#802bb1"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                            <li><a href="#home"> Home</a> </li>
+                            <!--drop down menu -->
+                            <li class="dropdown">
+                                <a href="#categories"> Categories</a> 
+                            <div class="dropdown-content">
+                                <a href="#electronics"> Electronics</a><br>
+                                <a href="#furniture"> Furniture</a><br>
+                                <a href="#Kitchen appliances"> Kitchen Appliances</a><br>
+                                <a href="#beddings"> Beddings</a><br>
+                                <a href="#utensils">Utensils</a><br>
+                            </div>
+                        </li>
+                            <li><a href="#cart"> Cart</a> </li>
+                            <li><a href="#help centre"> Help centre</a> </li>
+                        </ul>
+                    <ul>
+                    <li><a href="#temkoenterprise">Temko Enterprise</a></li>
+                        <li class="hideOnMobile"><a href="#home"> Home</a> </li>
+                        <!--drop down menu -->
+                        <li class="hideOnMobile">
+                        <li class="dropdown">
+                            <a href="#categories"> Categories</a> 
+                        <div class="dropdown-content">
+                            <a href="#electronics"> Electronics</a>
+                            <a href="#furniture"> Furniture</a>
+                            <a href="#Kitchen appliances"> Kitchen Appliances</a>
+                            <a href="#beddings"> Beddings</a>
+                            <a href="#utensils">Utensils</a>
+                        </div>
+                    </li>
+                        </li>
+                        <li class="hideOnMobile"><a href="#cart"> Cart</a> </li>
+                        <li class="hideOnMobile"><a href="#help centre"> Help centre</a> </li>
+                        <li class="menu-button" onclick=showsidebar()><a href="#menu"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#802bb1"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                        </li>
+                    </ul>
+                </nav>
+                <script src="script.js"></script>
+        </header>
+    </body>
+</html>
